@@ -18,6 +18,13 @@ Sobre a oportunidade
   * Implementar a consulta do cliente;
   * Implementar a listagem de clientes;
   * Implementar edição de cliente;
+  * Implementar autenticação do cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
+  * Implementar a troca de senha dos usuários do perfil cliente.
+
+• Regras de negócio do escopo mínimo:
+  * A manutenção do cliente (cadastro, edição e listagens) só pode ser feita por um usuário do perfil admin do sistema;
+  * Não são permitidos clientes com dados iguais, exceto o nome;
+  * A galeria de imagens de eventos só pode ser feita por usuários do perfil cliente e devidamente autenticados no sistema;
 
 • O que será diferencial:
   * Implementar paginação;
@@ -31,4 +38,4 @@ Sobre a oportunidade
   * Diferenciais;
 
 # A entrega 
-  Após a realização do desafio, você tera que enviar um pull-request para esse projeto. O registro do pull-request será considerado como o marco de entrega do desafio, então certifique-se de fazê-lo até o final do prazo.
+  Após a realização do desafio, você tera que enviar um pull-request para esse projeto. O registro do pull-request será considerado como o marco de entrega do desafio, então certifique-se de fazê-lo até o final do prazo. O banco de dados (arquivo .sql) deve vir contido no projeto, bem como qualquer instrução de uso do sistema como logins e senhas.
