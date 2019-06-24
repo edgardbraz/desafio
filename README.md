@@ -10,24 +10,27 @@ Sobre a oportunidade
   Nós da LessClick trabalhamos com diversos tipos de sistemas para melhor atender os nossos clientes e eles são de fundamental importância para o nosso trabalho. Pensamos que nada melhor para um bom sistema que um ótimo cadastro de seus clientes:
 
 • Pré-requisitos:
-  * Desenvolver os recursos utilizando o framework CodeIgniter;
+  * Desenvolver os recursos utilizando o framework Laravel;
   * Utilizar banco de dados Mysql;
 
-• O que esperamos como escopo mínimo:
+• O que esperamos como escopo mínimo da API:
   * Implementar o cadastro de um novo cliente;
   * Implementar a consulta do cliente;
   * Implementar a listagem de clientes;
   * Implementar edição de cliente;
-  * Implementar autenticação do cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
-  * Implementar a troca de senha dos usuários do perfil cliente.
+	* Implementar a troca de senha dos usuários do perfil cliente;
+	* Todas as requsições devidamente utilizando método de autenticação na comunicação;
 
+• Diferencial:
+  * Implementar ambiente web com autenticação de cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
+  
 • Regras de negócio do escopo mínimo:
   * A manutenção do cliente (cadastro, edição e listagens) só pode ser feita por um usuário do perfil admin do sistema;
   * Não são permitidos clientes com dados iguais, exceto o nome;
-  * A galeria de imagens de eventos só pode ser feita por usuários do perfil cliente e devidamente autenticados no sistema;
+  * A galeria de imagens de eventos só pode ser visualizada por usuários do perfil cliente e devidamente autenticados no sistema;
 
 • O que será diferencial:
-  * Implementar paginação;
+  * Implementar paginação da busca de clientes na resquisição;
   * Elaborar documentação;
   * Elaborar testes.
 
