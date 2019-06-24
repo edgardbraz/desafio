@@ -18,8 +18,8 @@ Sobre a oportunidade
   * Implementar a consulta do cliente;
   * Implementar a listagem de clientes;
   * Implementar edição de cliente;
-	* Implementar a troca de senha dos usuários do perfil cliente;
-	* Todas as requsições devidamente utilizando método de autenticação na comunicação;
+  * Implementar a troca de senha dos usuários do perfil cliente;
+  * Todas as requsições devidamente utilizando método de autenticação na comunicação;
 
 • Diferencial:
   * Implementar ambiente web com autenticação de cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
