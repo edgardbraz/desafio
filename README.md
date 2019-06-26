@@ -1,44 +1,72 @@
-# Desafio LessClick de Seleção
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-  Olá, queremos convidá-lo a participar de nosso desafio de seleção. Seu trabalho será visto por nosso time e você receberá ao final um feedback sobre o que achamos do seu trabalho.
-Sobre a oportunidade
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-  A vaga é para estágio em desenvolvimento e para isso utilizaremos critérios específicos de avaliação considerando qualidade do seu código, níveis de coesão e coerência, utilização de padrões de projeto e arquitetura, modelagem do relacionamento com o banco de dados e capacidade de entendimento de regras de negócio. Se você for aprovado nesta etapa, será convidado para uma entrevista final com nosso time.
+## About Laravel
 
-# Desafio Técnico
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-  Nós da LessClick trabalhamos com diversos tipos de sistemas para melhor atender os nossos clientes e eles são de fundamental importância para o nosso trabalho. Pensamos que nada melhor para um bom sistema que um ótimo cadastro de seus clientes:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-• Pré-requisitos:
-  * Desenvolver os recursos utilizando o framework Laravel;
-  * Utilizar banco de dados Mysql;
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-• O que esperamos como escopo mínimo da API:
-  * Implementar o cadastro de um novo cliente;
-  * Implementar a consulta do cliente;
-  * Implementar a listagem de clientes;
-  * Implementar edição de cliente;
-  * Implementar a troca de senha dos usuários do perfil cliente;
-  * Todas as requsições devidamente utilizando método de autenticação na comunicação;
+## Learning Laravel
 
-• Diferencial:
-  * Implementar ambiente web com autenticação de cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
-  
-• Regras de negócio do escopo mínimo:
-  * A manutenção do cliente (cadastro, edição e listagens) só pode ser feita por um usuário do perfil admin do sistema;
-  * Não são permitidos clientes com dados iguais, exceto o nome;
-  * A galeria de imagens de eventos só pode ser visualizada por usuários do perfil cliente e devidamente autenticados no sistema;
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-• O que será diferencial:
-  * Implementar paginação da busca de clientes na resquisição;
-  * Elaborar documentação;
-  * Elaborar testes.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-• O que vamos avaliar:
-  * Seu código;
-  * Organização;
-  * Boas práticas;
-  * Diferenciais;
+## Laravel Sponsors
 
-# A entrega 
-  Após a realização do desafio, você tera que enviar um pull-request para esse projeto. O registro do pull-request será considerado como o marco de entrega do desafio, então certifique-se de fazê-lo até o final do prazo. O banco de dados (arquivo .sql) deve vir contido no projeto, bem como qualquer instrução de uso do sistema como logins e senhas.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
