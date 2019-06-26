@@ -6,13 +6,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 
-use App\Http\Controllers\RestController;
 use Hash;
 use Validator;
 
 use App\User;
 
-class UserController extends RestController
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -30,7 +29,7 @@ class UserController extends RestController
             return response()->json(['success' => $success], $this->successStatus);
         } 
         else{ 
-            return response()->json(['error'=>'Unauthorised'], $unauthorizedStatus); 
+            return response()->json(['error'=>'Unauthorised'], $this->unauthorizedStatus); 
         } 
     }
 
@@ -56,7 +55,7 @@ class UserController extends RestController
         ]);
         
         if ($validator->fails()) { 
-            return response()->json(['error'=>$validator->errors()], $unauthorizedStatus);            
+            return response()->json(['error'=>$validator->errors()], $this->unauthorizedStatus);            
         }
         
         $input = $request->all(); 
