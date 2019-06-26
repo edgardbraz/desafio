@@ -4,19 +4,13 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
+            @if(!is_null($events) && !empty($events))
+                @foreach($events as $event)
+                    <a href="{{$event['image']}}" data-fancybox="images" data-caption="<h4>{{$event['title']}}</h4> <p>{{$event['description']}}</p>">
+                        <img src="{{$event['image']}}" alt="" class="img-fluid" />
+                    </a>
+                @endforeach
+            @endif
         </div>
     </div>
 </div>
